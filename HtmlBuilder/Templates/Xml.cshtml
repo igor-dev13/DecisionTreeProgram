@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Support Xml Helper</title>
+    <link href="src\style.css" rel="stylesheet" type="text/css"/>
+    <script src="src\jquery.js"></script>
+    <script src="src\main.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="node-wrapper">
+        @foreach (var node in Model.Nodes)
+        {
+            <div id="@node.Id" class="node">
+                <div class="node__container">
+                    <div class="node__title">@node.Text</div>
+
+
+                    @if ( node.Link.Length > 0 )
+                    {
+                        <div class="node__link">
+                            <a class="node__link-title" target="_blank" href="@node.Link">Открыть внешнюю ссылку</a>
+                        </div>
+                    }
+                    <div class="node__btn-block clearfix">
+                        @foreach ( var item in Model.Nodes )
+                        {
+                            if ( item.ParentId == node.Id )
+                            {
+                                <div class="node__btn-wrap">
+                                    <div data-link="@item.Id" class="button button__next">@item.Text</div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+                @if (node.ParentId.Length > 0)
+                {
+                    <div class="button-wrapper_back">
+                        <div data-link="@node.ParentId" class="button button__back">Назад</div>
+                    </div>
+                }
+            </div>
+        }
+    </div>
+    <div class="button-wrapper_start">
+        <div data-link="/" class="button button__start">Заново</div>
+    </div>
+</div>
+</body>
+</html>

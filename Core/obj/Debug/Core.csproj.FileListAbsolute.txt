@@ -1,0 +1,14 @@
+C:\TL\solutions\SupportXml\Core\bin\Debug\Support.Core.exe.config
+C:\TL\solutions\SupportXml\Core\bin\Debug\Support.Core.exe
+C:\TL\solutions\SupportXml\Core\bin\Debug\Support.Core.pdb
+C:\TL\solutions\SupportXml\Core\bin\Debug\Support.Html.dll
+C:\TL\solutions\SupportXml\Core\bin\Debug\Support.Parser.dll
+C:\TL\solutions\SupportXml\Core\bin\Debug\RazorEngine.dll
+C:\TL\solutions\SupportXml\Core\bin\Debug\System.Web.Razor.dll
+C:\TL\solutions\SupportXml\Core\bin\Debug\Support.Html.pdb
+C:\TL\solutions\SupportXml\Core\bin\Debug\Support.Parser.pdb
+C:\TL\solutions\SupportXml\Core\bin\Debug\RazorEngine.xml
+C:\TL\solutions\SupportXml\Core\bin\Debug\System.Web.Razor.xml
+C:\TL\solutions\SupportXml\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+C:\TL\solutions\SupportXml\Core\obj\Debug\Support.Core.exe
+C:\TL\solutions\SupportXml\Core\obj\Debug\Support.Core.pdb
