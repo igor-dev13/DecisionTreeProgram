@@ -7,8 +7,8 @@
     <ProjectGuid>{89926962-8A1A-4C0C-BC5C-A2D3BAF4E0AC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Support.Html</RootNamespace>
-    <AssemblyName>Support.Html</AssemblyName>
+    <RootNamespace>DecisionTree.Html</RootNamespace>
+    <AssemblyName>DecisionTree.Html</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

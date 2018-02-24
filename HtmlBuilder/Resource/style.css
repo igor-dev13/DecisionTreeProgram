@@ -131,6 +131,10 @@
     margin-bottom: 20px;
 }
 
+.node__label-title {
+    font-weight: bold;
+}
+
 .clearfix:after {
     content: "";
     display: table;

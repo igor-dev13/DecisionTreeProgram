@@ -7,8 +7,8 @@
     <ProjectGuid>{CED00975-3071-469D-9993-F2C03869BED0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Support.Parser</RootNamespace>
-    <AssemblyName>Support.Parser</AssemblyName>
+    <RootNamespace>DecisionTree.Parser</RootNamespace>
+    <AssemblyName>DecisionTree.Parser</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

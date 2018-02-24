@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Support.Html.Models;
+using DecisionTree.Html.Models;
 
-namespace Support.Html
+namespace DecisionTree.Html
 {
     public interface IHtmlBuilder
     {

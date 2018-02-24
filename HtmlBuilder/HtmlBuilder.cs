@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Configuration;
+using DecisionTree.Html.Models;
 using RazorEngine;
 using RazorEngine.Configuration;
 using RazorEngine.Templating;
-using Support.Html.Models;
 
-namespace Support.Html
+namespace DecisionTree.Html
 {
     public class HtmlBuilder : IHtmlBuilder
     {

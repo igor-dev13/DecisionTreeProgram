@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Support.Html.Models
+namespace DecisionTree.Html.Models
 {
     public class NodeModel
     {

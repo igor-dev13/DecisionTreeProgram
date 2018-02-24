@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Xml.Linq;
-using Support.Html.Models;
+using DecisionTree.Html.Models;
 
-namespace Support.Parser
+namespace DecisionTree.Parser
 {
     public interface IXmlParser
     {

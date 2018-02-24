@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Text;
 using System.Xml.Linq;
-using Support.Html;
-using Support.Html.Models;
-using System.Configuration;
-using Support.Parser;
+using DecisionTree.Html;
+using DecisionTree.Html.Models;
+using DecisionTree.Parser;
 
-namespace Support.Core
+namespace DecisionTree.Core
 {
     class Generator
     {

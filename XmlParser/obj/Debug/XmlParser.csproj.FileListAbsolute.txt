@@ -9,3 +9,14 @@ C:\TL\solutions\SupportXml\XmlParser\bin\Debug\System.Web.Razor.xml
 C:\TL\solutions\SupportXml\XmlParser\obj\Debug\XmlParser.csprojResolveAssemblyReference.cache
 C:\TL\solutions\SupportXml\XmlParser\obj\Debug\Support.Parser.dll
 C:\TL\solutions\SupportXml\XmlParser\obj\Debug\Support.Parser.pdb
+C:\TL\solutions\DecisionTreeProgram\XmlParser\bin\Debug\DecisionTree.Parser.dll
+C:\TL\solutions\DecisionTreeProgram\XmlParser\bin\Debug\DecisionTree.Parser.pdb
+C:\TL\solutions\DecisionTreeProgram\XmlParser\bin\Debug\DecisionTree.Html.dll
+C:\TL\solutions\DecisionTreeProgram\XmlParser\bin\Debug\RazorEngine.dll
+C:\TL\solutions\DecisionTreeProgram\XmlParser\bin\Debug\System.Web.Razor.dll
+C:\TL\solutions\DecisionTreeProgram\XmlParser\bin\Debug\DecisionTree.Html.pdb
+C:\TL\solutions\DecisionTreeProgram\XmlParser\bin\Debug\RazorEngine.xml
+C:\TL\solutions\DecisionTreeProgram\XmlParser\bin\Debug\System.Web.Razor.xml
+C:\TL\solutions\DecisionTreeProgram\XmlParser\obj\Debug\XmlParser.csprojResolveAssemblyReference.cache
+C:\TL\solutions\DecisionTreeProgram\XmlParser\obj\Debug\DecisionTree.Parser.dll
+C:\TL\solutions\DecisionTreeProgram\XmlParser\obj\Debug\DecisionTree.Parser.pdb

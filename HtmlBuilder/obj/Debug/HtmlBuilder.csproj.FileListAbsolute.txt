@@ -16,3 +16,12 @@ C:\TL\solutions\SupportXml\HtmlBuilder\bin\Debug\System.Web.Razor.xml
 C:\TL\solutions\SupportXml\HtmlBuilder\obj\Debug\HtmlBuilder.csprojResolveAssemblyReference.cache
 C:\TL\solutions\SupportXml\HtmlBuilder\obj\Debug\Support.Html.dll
 C:\TL\solutions\SupportXml\HtmlBuilder\obj\Debug\Support.Html.pdb
+C:\TL\solutions\DecisionTreeProgram\HtmlBuilder\bin\Debug\DecisionTree.Html.dll
+C:\TL\solutions\DecisionTreeProgram\HtmlBuilder\bin\Debug\DecisionTree.Html.pdb
+C:\TL\solutions\DecisionTreeProgram\HtmlBuilder\bin\Debug\RazorEngine.dll
+C:\TL\solutions\DecisionTreeProgram\HtmlBuilder\bin\Debug\System.Web.Razor.dll
+C:\TL\solutions\DecisionTreeProgram\HtmlBuilder\bin\Debug\RazorEngine.xml
+C:\TL\solutions\DecisionTreeProgram\HtmlBuilder\bin\Debug\System.Web.Razor.xml
+C:\TL\solutions\DecisionTreeProgram\HtmlBuilder\obj\Debug\HtmlBuilder.csprojResolveAssemblyReference.cache
+C:\TL\solutions\DecisionTreeProgram\HtmlBuilder\obj\Debug\DecisionTree.Html.dll
+C:\TL\solutions\DecisionTreeProgram\HtmlBuilder\obj\Debug\DecisionTree.Html.pdb

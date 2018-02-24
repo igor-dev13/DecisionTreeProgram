@@ -7,8 +7,8 @@
     <ProjectGuid>{54B48A09-EB3F-420E-9683-DCD31F4A648A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Support.Core</RootNamespace>
-    <AssemblyName>Support.Core</AssemblyName>
+    <RootNamespace>DecisionTree.Core</RootNamespace>
+    <AssemblyName>DecisionTree.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

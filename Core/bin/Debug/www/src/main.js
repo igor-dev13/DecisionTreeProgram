@@ -23,27 +23,30 @@ $(document).ready(function () {
         });
 
         $(buttonPrev).on("click", function () {
+            if ($($(activeNode).find('.node__label-title')).length) {
+                sendHistory();
+            }
+
             $(activeNode).removeClass('active');
             nextNodeId = $(nodeWrapper).find('#' + nextNodeId).find('.button__back').data('link');
             $(nodeWrapper).find('#' + nextNodeId).addClass('active');
         });
 
         $(buttonStart).on("click", function () {
-            sendHistiry();
+            sendHistory();
             $(activeNode).removeClass('active');
             $(node).first().addClass('active');
         });
 
-        var sendHistiry = function () {
-
-            var id = $(activeNode).attr('id'),
-                title = $(activeNode).find('.node__title').text();
+        var sendHistory = function () {
+            var guid = $(activeNode).attr('id'),
+                label = $(activeNode).find('.node__label-title') ? $(activeNode).find('.node__label-title').text() : "";
 
             $.ajax({
                 type: "POST",
                 async: false,
                 url: "/history",
-                data: JSON.stringify({ id: id, title: title }),
+                data: JSON.stringify({ guid: guid, label: label }),
                 dataType: "json",
                 contentType: "application/json",
                 success: function (data) {},
@@ -52,7 +55,7 @@ $(document).ready(function () {
 
         // отправка статистики
         $(window).on("unload", function (e) {
-            sendHistiry();
+            sendHistory();
         });
     })();
 });
