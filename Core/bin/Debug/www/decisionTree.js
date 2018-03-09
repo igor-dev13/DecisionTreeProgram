@@ -39,6 +39,7 @@ app.post("/history", jsonParser, function (request, response) {
     }
 
     var saveCsv = function (result) {
+        result.table.reverse();
         var fields = ['DateTime', 'GUID', 'Label'];
         var opts = { fields, delimiter: ';', withBOM: true };
         var parser = new Json2csvParser(opts);

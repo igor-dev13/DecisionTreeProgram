@@ -1,8 +1,16 @@
 .container {
     max-width: 1140px;
-    margin: 70px auto 80px;
+    margin: 30px auto 80px;
     color: #406080;
     font-family: "Open Sans",sans-serif;
+    padding: 0 15px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin: 50px auto 80px;
+        padding: 0;
+    }    
 }
 
 .node-wrapper {
@@ -26,10 +34,16 @@
 
 .node__title {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 42px;
+    font-size: 22px;
     color: #406080;
     font-weight: 300;
     margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+    .node__title {
+        font-size: 42px;
+    }    
 }
 
 .node__link-title {
@@ -49,7 +63,13 @@
 
 .node__btn-wrap {
     width: 50%;
-    padding: 0 15px;
+    padding: 0 5px;
+}
+
+@media (min-width: 768px) {
+    .node__btn-wrap {
+        padding: 0 15px;
+    }    
 }
 
 .button {
@@ -57,12 +77,19 @@
     font-family: "Open Sans",sans-serif;
     line-height: 38px;
     border-radius: 5px;
-    padding: 0 20px;
-    font-size: 16px;
+    padding: 0 10px;
+    font-size: 12px;
     text-align: center;
     cursor: pointer;
     border: 1px solid;
     height: 100%;
+}
+
+@media (min-width: 768px) {
+    .button {
+        font-size: 16px;
+        padding: 0 15px;
+    }    
 }
 
 .button__next {
@@ -122,6 +149,7 @@
 }
 
 .button-wrapper_start {
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -131,8 +159,24 @@
     margin-bottom: 20px;
 }
 
+.node__label {
+    margin-bottom: 20px;
+}
+
 .node__label-title {
     font-weight: bold;
+}
+
+.history__item {
+    margin-bottom: 20px;
+}
+
+.history__choise {
+    font-style: italic;
+}
+
+.history__question {
+    margin-bottom: 4px;
 }
 
 .clearfix:after {
